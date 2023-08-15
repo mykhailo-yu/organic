@@ -1,0 +1,11 @@
+@use "../auxilary" as aux;
+.button {
+  padding: 1.75rem 2.4375rem 1.8125rem 2.4375rem;
+  border-radius: 1rem;
+  background: aux.$titleAndBtnColor;
+  color: #fff;
+  width: 15rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+}

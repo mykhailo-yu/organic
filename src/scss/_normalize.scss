@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+button {
+  outline: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  margin: 0; /* 2 */
+  border: none;
+  outline: none;
+}

@@ -1,0 +1,87 @@
+@use "../auxilary" as aux;
+.footer {
+  &__inner {
+    display: flex;
+    justify-content: center;
+  }
+  &__title {
+    @include aux.h5Text;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+  &__contact-us {
+    text-align: right;
+    padding-right: 3rem;
+  }
+  &__contact-us-list {
+    &-title {
+      margin-top: 1rem;
+      @include aux.paragraph;
+      font-weight: 700;
+    }
+  }
+  &__link {
+    @include aux.paragraph;
+    transition: color 0.2s ease-in-out;
+    &:hover {
+      color: aux.$titleAndBtnColor;
+    }
+  }
+  &__links li {
+    margin-bottom: 1rem;
+  }
+  &__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 3rem 6rem;
+    border-left: 1px solid aux.$linesColor;
+    border-right: 1px solid aux.$linesColor;
+    margin-bottom: 6.5rem;
+    flex-basis: 45%;
+  }
+  &__social-links {
+    display: flex;
+    gap: 1rem;
+  }
+  &__social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.75rem;
+    height: 3.75rem;
+    background-color: #eff6f1;
+    border-radius: 50%;
+    transition: opacity 0.2s ease-in-out;
+    &:hover {
+      opacity: 0.7;
+    }
+    img {
+      width: 1.4rem;
+      height: 1.3rem;
+      object-position: center;
+    }
+  }
+  &__text {
+    @include aux.paragraph;
+    margin: 1.45rem 0 3rem;
+  }
+  &__utility-pages {
+    padding-left: 3rem;
+  }
+  &__line {
+    border: none;
+    height: 1px;
+    background-color: aux.$linesColor;
+  }
+  &__rights {
+    text-align: center;
+    padding: 1rem 0;
+    @include aux.paragraph;
+    &-link {
+      color: inherit;
+      font-weight: 700;
+    }
+  }
+}

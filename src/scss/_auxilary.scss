@@ -1,0 +1,66 @@
+// Colors //
+$titleAndBtnColor: #274c5b;
+$subtitleMainColor: #7eb693;
+$btnActiveColor: #efd372;
+$linesColor: #d4d4d4;
+$bgColor-2: #f9f8f8;
+$btnUnActiveColor: #eff6f1;
+$textColor: #525c60;
+@mixin h1Text {
+  color: $titleAndBtnColor;
+  font-family: "Roboto", sans-serif;
+  font-size: 4.375rem;
+  font-weight: 800;
+}
+@mixin h2Text {
+  color: $titleAndBtnColor;
+  font-family: "Roboto", sans-serif;
+  font-size: 3.125rem;
+  font-weight: 800;
+}
+@mixin h3Text {
+  color: $titleAndBtnColor;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+@mixin h4Text {
+  color: $titleAndBtnColor;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.1875rem;
+  font-weight: 800;
+}
+@mixin h5Text {
+  color: $titleAndBtnColor;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.875rem;
+  font-weight: 800;
+}
+@mixin h6Text {
+  color: $titleAndBtnColor;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5625rem;
+  font-weight: 800;
+}
+@mixin subtitle {
+  color: $subtitleMainColor;
+  font-family: "Yellowtail", cursive;
+  font-size: 2.25rem;
+  font-weight: 400;
+}
+@mixin paragraph {
+  color: $textColor;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 165.4%;
+}
+@mixin df-Jcsb-Aic {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@mixin img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
