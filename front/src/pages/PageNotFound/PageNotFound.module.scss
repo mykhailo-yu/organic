@@ -1,0 +1,45 @@
+@use "../../scss/auxilary" as aux;
+.pageNotFound {
+  position: relative;
+  width: 100%;
+  background-color: #bbc9c9;
+  background-image: url(../../../public/img/PageNotFound/pageNotFound__bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 8rem 0;
+  &::before {
+    position: absolute;
+    content: "";
+    background-image: url(../../../public/img/PageNotFound/pageNotFound__decor.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    top: 0%;
+    left: 12%;
+    width: 37%;
+    height: 90%;
+  }
+  &__main {
+    width: 37%;
+    margin-left: auto;
+    margin-right: 5%;
+  }
+  &__bigText {
+    width: 100%;
+    svg {
+      @include aux.img;
+    }
+  }
+  &__title {
+    @include aux.h1Text;
+    text-align: center;
+  }
+  &__text {
+    @include aux.paragraph;
+    margin: 1rem 0;
+  }
+  button {
+    width: 16rem;
+  }
+}

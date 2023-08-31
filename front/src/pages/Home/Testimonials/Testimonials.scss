@@ -1,0 +1,47 @@
+@use "../../../scss/Auxilary.scss" as aux;
+.testimonials {
+  padding: 10rem 0;
+  background-image: url(../../../../public/img/Testimonials/testimonials__bg-1.png),
+    url(../../../../public/img/Testimonials/testimonials__bg-2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left, right;
+  &__subtitle {
+    @include aux.subtitle;
+    text-align: center;
+  }
+  &__title {
+    @include aux.h2Text;
+    text-align: center;
+  }
+  &-line {
+    margin: 0 auto;
+    border: none;
+    height: 1px;
+    width: 75%;
+    background-color: aux.$linesColor;
+  }
+  &-stats {
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    gap: 3.8rem;
+    &__item {
+      width: 12rem;
+      height: 12rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      border: 0.3rem solid #7eb693;
+      &-title {
+        @include aux.h2Text;
+      }
+      &-subtitle {
+        @include aux.paragraph;
+        color: aux.$titleAndBtnColor;
+      }
+    }
+  }
+}

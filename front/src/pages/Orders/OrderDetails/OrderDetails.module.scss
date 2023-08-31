@@ -1,0 +1,46 @@
+@use "../../../scss/auxilary" as aux;
+.details {
+  margin: 5rem 0;
+  &__title {
+    text-align: center;
+    @include aux.h1Text;
+  }
+  &__inner {
+  }
+  &__titleRow {
+    @include aux.h6Text;
+    font-size: 1.2rem;
+  }
+  table {
+    margin-top: 3rem;
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  thead {
+    text-align: center;
+  }
+  th,
+  td {
+    padding: 0.1rem 0.5rem;
+    border: 1px solid aux.$titleAndBtnColor;
+  }
+  td {
+    word-wrap: break-word;
+  }
+  th:nth-child(1) {
+    width: 5%;
+  }
+  .orderDetails {
+    text-align: center;
+    button:hover {
+      transition: color 0.2s ease-in-out;
+      &:hover {
+        color: #0372d9;
+      }
+    }
+  }
+  button {
+    margin: 2rem auto;
+  }
+}

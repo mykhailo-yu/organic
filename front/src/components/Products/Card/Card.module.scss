@@ -1,0 +1,69 @@
+@use "../../../scss/Auxilary.scss" as aux;
+.card {
+  position: relative;
+  width: 24%;
+  max-width: 21rem;
+  max-height: 30rem;
+  padding: 2.5rem 1.85rem 1rem;
+  border-radius: 1.875rem;
+  background: aux.$bgColor-2;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  &__category {
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    padding: 0.3rem 0.75rem;
+    border-radius: 0.5rem;
+    background-color: aux.$titleAndBtnColor;
+    color: #fff;
+    text-align: center;
+    font-size: 0.9375rem;
+    font-weight: 600;
+  }
+  &__image {
+    width: 100%;
+    height: 75%;
+    mix-blend-mode: multiply;
+    img {
+      @include aux.img;
+    }
+  }
+  &__productName {
+    color: aux.$titleAndBtnColor;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0.8rem 0;
+  }
+  &__line {
+    border: none;
+    height: 2px;
+    background-color: #dedddd;
+  }
+  &__productPriceAndRate {
+    @include aux.df-Jcsb-Aic;
+    margin: 0.3rem;
+  }
+  &__productPrice {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    &_old {
+      text-decoration: line-through;
+      text-decoration-thickness: 0.1rem;
+      color: #b8b8b8;
+      font-size: 0.9375rem;
+      font-weight: 600;
+    }
+    &_new {
+      color: aux.$titleAndBtnColor;
+      font-size: 1.125rem;
+      font-weight: 700;
+    }
+  }
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0px 20px 35px 0px rgba(167, 167, 167, 0.25);
+    transform: translateY(-0.5rem);
+  }
+}

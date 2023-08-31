@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e8b5318b.css",
+    "main.js": "/static/js/main.0653f991.js",
+    "static/media/pageNotFound__bg.png": "/static/media/pageNotFound__bg.929324363bddfa751394.png",
+    "static/media/natural-food__bg-img.png": "/static/media/natural-food__bg-img.dd422c72454f57ada9bd.png",
+    "static/media/testimonials__bg-1.png": "/static/media/testimonials__bg-1.41570ab5a6e06a8e6626.png",
+    "static/media/testimonials__bg-2.png": "/static/media/testimonials__bg-2.c124a14636cb9218e05a.png",
+    "static/media/subscribe__background.png": "/static/media/subscribe__background.1d3766b8f37958e4fc87.png",
+    "static/media/choose-category-bg-1.jpg": "/static/media/choose-category-bg-1.81f9e0b403ec3b514620.jpg",
+    "static/media/choose-category-bg-3.jpg": "/static/media/choose-category-bg-3.7d36f1d5fedf622380b7.jpg",
+    "static/media/choose-category-bg-2.jpg": "/static/media/choose-category-bg-2.d61989931c55e8707f68.jpg",
+    "static/media/natural-offer__bg-image-2.jpg": "/static/media/natural-offer__bg-image-2.b61991ffc1ee9718ca62.jpg",
+    "static/media/natural-offer__bg-image-1.jpg": "/static/media/natural-offer__bg-image-1.e7137106bf846a5ae9f0.jpg",
+    "static/media/pageNotFound__decor.svg": "/static/media/pageNotFound__decor.e084e8d380bd85951958.svg",
+    "index.html": "/index.html",
+    "static/media/news-items__author.svg": "/static/media/news-items__author.3e52867dcccd7aa24ccd.svg",
+    "static/media/header__link-arrow.svg": "/static/media/header__link-arrow.02b723d05fdcd679710a.svg",
+    "main.e8b5318b.css.map": "/static/css/main.e8b5318b.css.map",
+    "main.0653f991.js.map": "/static/js/main.0653f991.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8b5318b.css",
+    "static/js/main.0653f991.js"
+  ]
+}

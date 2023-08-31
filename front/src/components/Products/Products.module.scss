@@ -1,0 +1,15 @@
+@use "../../scss/Auxilary.scss" as aux;
+.products {
+  margin: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__wrapper {
+    margin-bottom: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.1rem;
+    transition: all 0.2s ease-in-out;
+  }
+}

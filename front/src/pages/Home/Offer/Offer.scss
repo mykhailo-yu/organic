@@ -1,0 +1,12 @@
+@use "../../../scss/Auxilary.scss" as aux;
+.offer {
+  background-color: aux.$titleAndBtnColor;
+  padding: 10rem 0;
+  &__subtitle {
+    @include aux.subtitle;
+  }
+  &__title {
+    @include aux.h2Text;
+    color: #fff;
+  }
+}

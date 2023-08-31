@@ -1,0 +1,19 @@
+@use "../../scss/Auxilary.scss" as aux;
+.logo {
+  @include aux.df-Jcsb-Aic;
+  max-width: 12.4rem;
+  gap: 0.5rem;
+  &__text {
+    color: aux.$titleAndBtnColor;
+    font-family: "Roboto", sans-serif;
+    font-size: 2.375rem;
+    font-weight: 700;
+  }
+  &__image {
+    width: 2.29rem;
+    height: 3.36rem;
+    img {
+      @include aux.img;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+@use "auxilary" as aux;
+html {
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  background-color: #fff;
+  color: aux.$textColor;
+}
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+.banner {
+  width: 100%;
+  padding: 8rem 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @include aux.h1Text;
+}

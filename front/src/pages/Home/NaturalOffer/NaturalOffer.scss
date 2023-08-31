@@ -1,0 +1,40 @@
+@use "../../../scss/Auxilary.scss" as aux;
+.natural-offer {
+  margin: 10rem 0;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    flex-basis: 48%;
+    padding: 7rem 4rem;
+    border-radius: 1.875rem;
+    background-color: #ebf0f4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    &-subtitle {
+      @include aux.subtitle;
+    }
+    &-text {
+      @include aux.h3Text;
+      max-width: 50%;
+      margin-top: 1rem;
+    }
+    &:first-child {
+      background-color: #f96893;
+      $item-text-color: #fff;
+      background-image: url(../../../../public/img/NaturalOffer/natural-offer__bg-image-1.jpg);
+      .natural-offer__item-subtitle {
+        color: $item-text-color;
+      }
+      .natural-offer__item-text {
+        color: $item-text-color;
+      }
+    }
+    &:last-child {
+      background-color: #ebf0f4;
+      background-image: url(../../../../public/img/NaturalOffer/natural-offer__bg-image-2.jpg);
+    }
+  }
+}

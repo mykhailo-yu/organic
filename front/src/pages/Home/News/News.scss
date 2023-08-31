@@ -1,0 +1,18 @@
+@use "../../../scss/Auxilary.scss" as aux;
+.news {
+  margin: 10rem 0;
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  &__titles {
+    flex-basis: 50%;
+  }
+  &__subtitle {
+    @include aux.subtitle;
+  }
+  &__title {
+    @include aux.h2Text;
+  }
+}

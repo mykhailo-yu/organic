@@ -1,0 +1,49 @@
+@use "../../../scss/Auxilary.scss" as aux;
+.natural-food {
+  position: relative;
+  padding: 10rem 0;
+  background-color: #f1eff0;
+  background-image: url(../../../../public/img/NaturalFood/natural-food__bg-img.png);
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-position: 37vw center;
+  background-size: 70vw;
+  &__decor-item {
+    position: absolute;
+    width: 8rem;
+    height: auto;
+    img {
+      @include aux.img;
+    }
+    &:first-child {
+      top: 0;
+      left: 0;
+    }
+    &:nth-child(2) {
+      top: 0;
+      left: 35%;
+    }
+    &:nth-child(3) {
+      top: 0;
+      right: 0;
+    }
+    &:nth-child(4) {
+      bottom: 0;
+      right: 0;
+    }
+    &:last-child {
+      bottom: 0;
+      left: 0;
+    }
+  }
+  &__inner {
+    max-width: 33rem;
+  }
+  &__subtitle {
+    @include aux.subtitle;
+  }
+  &__title {
+    @include aux.h1Text;
+    margin: 1rem 0;
+  }
+}

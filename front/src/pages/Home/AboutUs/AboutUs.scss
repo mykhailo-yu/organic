@@ -1,0 +1,54 @@
+@use "../../../scss/Auxilary.scss" as aux;
+
+.about-us {
+  padding: 10rem 0;
+  background-color: aux.$bgColor-2;
+  &__inner {
+    @include aux.df-Jcsb-Aic;
+  }
+  &__image {
+    flex-basis: 50%;
+    img {
+      @include aux.img;
+    }
+  }
+  &__info {
+    flex-basis: 50%;
+    &-subtitle {
+      @include aux.subtitle;
+    }
+    &-title {
+      @include aux.h2Text;
+      margin: 0.8rem 0;
+    }
+  }
+
+  &__list {
+    margin: 3rem 0;
+  }
+  &__list-item {
+    margin: 2rem 0;
+    display: flex;
+    gap: 1.19rem;
+    &-title {
+      @include aux.h6Text;
+    }
+    &-image-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #fff;
+      border-radius: 1.25rem;
+      width: 6.3rem;
+      height: 6.3rem;
+      flex-shrink: 0;
+    }
+    &-image {
+      width: 3.5rem;
+      height: 3.25rem;
+      img {
+        @include aux.img;
+      }
+    }
+  }
+}

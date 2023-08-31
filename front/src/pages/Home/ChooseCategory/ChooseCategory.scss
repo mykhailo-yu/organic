@@ -1,0 +1,39 @@
+@use "../../../scss/Auxilary.scss" as aux;
+.choose-category {
+  background-color: #f1f8f4;
+  @include aux.df-Jcsb-Aic;
+  gap: 2%;
+  padding: 10rem 0;
+  &__item {
+    padding: 0 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 33%;
+    height: 31vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    &:first-child {
+      background-image: url(../../../../public/img/ChooseCategory/choose-category-bg-1.jpg);
+    }
+    &:nth-child(2) {
+      background-image: url(../../../../public/img/ChooseCategory/choose-category-bg-2.jpg);
+    }
+    &:last-child {
+      background-image: url(../../../../public/img/ChooseCategory/choose-category-bg-3.jpg);
+    }
+    &-link {
+      display: inline-block;
+      @include aux.h6Text;
+      font-weight: 500;
+      padding: 2rem 5rem;
+      border-radius: 1.25rem;
+      background-color: #fff;
+      transition: background-color 0.2s ease-in-out;
+      &:hover {
+        background-color: aux.$btnActiveColor;
+      }
+    }
+  }
+}

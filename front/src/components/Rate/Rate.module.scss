@@ -1,0 +1,10 @@
+@use "../../scss/Auxilary.scss" as aux;
+.rate {
+  display: flex;
+  margin: 0.5rem 0;
+  &__star {
+    img {
+      @include aux.img;
+    }
+  }
+}

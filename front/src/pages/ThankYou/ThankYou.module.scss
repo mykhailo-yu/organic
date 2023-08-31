@@ -1,0 +1,18 @@
+@use "../../scss/auxilary" as aux;
+.thankYou {
+  width: 100%;
+  height: 30rem;
+  margin: 10rem 0;
+  &__title {
+    @include aux.h1Text;
+    text-align: center;
+  }
+  &__image {
+    height: 100%;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}

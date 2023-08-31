@@ -1,0 +1,35 @@
+@use "../../scss/Auxilary.scss" as aux;
+.subscribe {
+  margin: 7.3rem 0;
+  width: 100%;
+  border-radius: 1.875rem;
+  padding: 6.5rem 4.4rem;
+  background-color: #37b5de;
+  background-image: url(../../../public/img/Subscribe/subscribe__background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  @include aux.df-Jcsb-Aic;
+  &__title {
+    @include aux.h2Text;
+    color: #ffffff;
+    flex-basis: 28%;
+  }
+  &__form {
+    display: flex;
+    align-items: center;
+    gap: 0.38rem;
+    flex-basis: 45%;
+  }
+  &__form-input {
+    padding: 1.75rem 1.44rem;
+    border-radius: 1rem;
+    background: #fff;
+    @include aux.paragraph;
+    font-style: italic;
+    flex-grow: 1;
+    &::placeholder {
+      color: #ababab;
+    }
+  }
+}

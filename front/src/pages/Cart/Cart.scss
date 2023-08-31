@@ -1,0 +1,151 @@
+@use "../../scss/auxilary" as aux;
+.cart {
+  &__wrapper {
+    margin-top: 8rem;
+    padding: 5rem 0 3rem;
+    background-color: #fdb02d29;
+  }
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    button {
+      align-self: center;
+    }
+  }
+  &__total {
+    margin: 2rem 0;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    @include aux.h3Text;
+    &-cost,
+    &-discount {
+      display: flex;
+      justify-content: space-between;
+      gap: 1.5rem;
+    }
+  }
+  &--empty {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: aux.$titleAndBtnColor;
+  }
+}
+.cart-item {
+  @include aux.df-Jcsb-Aic;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: aux.$titleAndBtnColor;
+  &__info {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+  }
+  &__image {
+    height: 10rem;
+    width: 20%;
+    flex-shrink: 0;
+    img {
+      mix-blend-mode: multiply;
+      @include aux.img;
+    }
+  }
+  &__title {
+    max-width: 55%;
+  }
+  &__price {
+    display: flex;
+    align-items: center;
+    color: aux.$titleAndBtnColor;
+    margin: 0 auto 0 1rem;
+    gap: 0.5rem;
+    &_old {
+      color: #b8b8b8;
+      font-size: 1.5rem;
+      font-weight: 700;
+      text-decoration: line-through;
+      text-decoration-thickness: 0.2rem;
+    }
+  }
+  &__addToCart {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    label {
+      color: aux.$titleAndBtnColor;
+      font-family: "Roboto", sans-serif;
+      font-size: 2rem;
+      font-weight: 700;
+    }
+    input {
+      max-width: 8rem;
+      text-align: center;
+      border-radius: 1rem;
+      padding: 1.75rem 0.2rem;
+      padding-left: 1rem;
+      text-align: center;
+      width: 10rem;
+      border: 0.2rem solid aux.$titleAndBtnColor;
+      background: #fff;
+      color: aux.$titleAndBtnColor;
+      font-family: "Roboto", sans-serif;
+      font-size: 1.25rem;
+      font-weight: 700;
+    }
+  }
+  &__removeBtn {
+    padding: 0.5rem 1.5rem;
+    border-radius: 1rem;
+    background: aux.$titleAndBtnColor;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+}
+.orderForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem 0;
+  &__inputs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  label {
+    color: aux.$titleAndBtnColor;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 600;
+  }
+  &__input-label-text {
+    margin-bottom: 1rem;
+  }
+  input:invalid {
+    border: 0.1rem solid rgb(255, 0, 0);
+  }
+  input,
+  textarea {
+    padding: 1.75rem 0 1.75rem 1.44rem;
+    border-radius: 1rem;
+    border: 0.1rem solid #7eb693;
+    background: #fff;
+    width: 100%;
+  }
+  .comment {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  textarea {
+    min-height: 14rem;
+    width: 100%;
+  }
+  button {
+    text-align: center;
+  }
+}

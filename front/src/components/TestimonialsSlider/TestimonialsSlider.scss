@@ -1,0 +1,50 @@
+@use "../../scss/Auxilary.scss" as aux;
+.testimonial-slider {
+  position: relative;
+  width: 50%;
+  margin: 3rem auto 6.3rem;
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &-image {
+      border-radius: 50%;
+      width: 7.18rem;
+      height: 7.18rem;
+      margin-bottom: 1rem;
+      img {
+        @include aux.img;
+        border-radius: 50%;
+      }
+    }
+    &-text {
+      @include aux.paragraph;
+      margin: 1.5rem 0;
+    }
+    &-name {
+      @include aux.h6Text;
+      font-weight: 600;
+    }
+    &-role {
+      @include aux.paragraph;
+      font-size: 0.94rem;
+    }
+  }
+}
+#testimonial-slider__pagination {
+  position: absolute;
+  width: unset;
+  top: unset;
+  bottom: -7%;
+  left: 50%;
+  transform: translateX(-50%);
+  .swiper-pagination-bullet {
+    background-color: #c4c4c4;
+    margin: 0;
+    margin-right: 0.3rem;
+    &-active {
+      background-color: #7eb693;
+    }
+  }
+}

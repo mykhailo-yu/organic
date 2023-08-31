@@ -1,0 +1,33 @@
+@use "../../scss/Auxilary.scss" as aux;
+.button {
+  padding: 1.75rem 2.4375rem 1.8125rem 2.4375rem;
+  border-radius: 1rem;
+  background: aux.$titleAndBtnColor;
+  color: #fff;
+  width: 13.75rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.56rem;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  &__arrow {
+    width: 1.187rem;
+    height: 1.187rem;
+    border-radius: 50%;
+    background-color: #335b6b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease-in-out;
+  }
+  &:hover {
+    background-color: aux.$btnActiveColor;
+    color: aux.$titleAndBtnColor;
+    .button__arrow {
+      transform: translateX(30%);
+    }
+  }
+}
