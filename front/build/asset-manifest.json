@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e8b5318b.css",
-    "main.js": "/static/js/main.0653f991.js",
+    "main.css": "/static/css/main.f0e39afe.css",
+    "main.js": "/static/js/main.1096cc99.js",
     "static/media/pageNotFound__bg.png": "/static/media/pageNotFound__bg.929324363bddfa751394.png",
     "static/media/natural-food__bg-img.png": "/static/media/natural-food__bg-img.dd422c72454f57ada9bd.png",
     "static/media/testimonials__bg-1.png": "/static/media/testimonials__bg-1.41570ab5a6e06a8e6626.png",
@@ -13,14 +13,14 @@
     "static/media/natural-offer__bg-image-2.jpg": "/static/media/natural-offer__bg-image-2.b61991ffc1ee9718ca62.jpg",
     "static/media/natural-offer__bg-image-1.jpg": "/static/media/natural-offer__bg-image-1.e7137106bf846a5ae9f0.jpg",
     "static/media/pageNotFound__decor.svg": "/static/media/pageNotFound__decor.e084e8d380bd85951958.svg",
-    "index.html": "/index.html",
     "static/media/news-items__author.svg": "/static/media/news-items__author.3e52867dcccd7aa24ccd.svg",
+    "index.html": "/index.html",
     "static/media/header__link-arrow.svg": "/static/media/header__link-arrow.02b723d05fdcd679710a.svg",
-    "main.e8b5318b.css.map": "/static/css/main.e8b5318b.css.map",
-    "main.0653f991.js.map": "/static/js/main.0653f991.js.map"
+    "main.f0e39afe.css.map": "/static/css/main.f0e39afe.css.map",
+    "main.1096cc99.js.map": "/static/js/main.1096cc99.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8b5318b.css",
-    "static/js/main.0653f991.js"
+    "static/css/main.f0e39afe.css",
+    "static/js/main.1096cc99.js"
   ]
 }
