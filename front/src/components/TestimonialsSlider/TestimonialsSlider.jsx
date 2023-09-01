@@ -22,7 +22,7 @@ function TestimonialsSlider() {
           <div className="testimonial-slider__item-image">
             <img src="/img/TestimonialsSlider/User-1.jpg" alt="Sara Taylor" />
           </div>
-          <Rate rate={5} />
+          <Rate rate={5} size={"1.5rem"} />
           <div className="testimonial-slider__item-text">
             Simply dummy text of the printing and typesetting industry. Lorem
             Ipsum simply dummy text of the printing and typesetting industry.
@@ -35,7 +35,7 @@ function TestimonialsSlider() {
           <div className="testimonial-slider__item-image">
             <img src="/img/TestimonialsSlider/User-1.jpg" alt="Sara Taylor" />
           </div>
-          <Rate rate={3} />
+          <Rate rate={3} size={"1.5rem"} />
           <div className="testimonial-slider__item-text">
             Simply dummy text of the printing and typesetting industry. Lorem
             Ipsum simply dummy text of the printing and typesetting industry.
@@ -48,7 +48,7 @@ function TestimonialsSlider() {
           <div className="testimonial-slider__item-image">
             <img src="/img/TestimonialsSlider/User-1.jpg" alt="Sara Taylor" />
           </div>
-          <Rate rate={4} />
+          <Rate rate={4} size={"1.5rem"} />
           <div className="testimonial-slider__item-text">
             Simply dummy text of the printing and typesetting industry. Lorem
             Ipsum simply dummy text of the printing and typesetting industry.
@@ -61,7 +61,7 @@ function TestimonialsSlider() {
           <div className="testimonial-slider__item-image">
             <img src="/img/TestimonialsSlider/User-1.jpg" alt="Sara Taylor" />
           </div>
-          <Rate rate={4} />
+          <Rate rate={4} size={"1.5rem"} />
           <div className="testimonial-slider__item-text">
             Simply dummy text of the printing and typesetting industry. Lorem
             Ipsum simply dummy text of the printing and typesetting industry.

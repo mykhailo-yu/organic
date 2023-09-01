@@ -229,7 +229,8 @@ function Cart() {
           onClick={clearCart}
         />
       );
-    else return <Button text="To Order" onClick={handleIsToOrderClick} />;
+    else if (Object.keys(cart).length !== 0)
+      return <Button text="To Order" onClick={handleIsToOrderClick} />;
   };
   return (
     <>

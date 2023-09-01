@@ -21,3 +21,27 @@ body {
   justify-content: center;
   @include aux.h1Text;
 }
+@media (max-width: 919.98px) {
+  html {
+    font-size: 14px;
+  }
+  .container {
+    width: 90%;
+  }
+}
+@media (min-width: 920px) and (max-width: 1419.98px) {
+  html {
+    font-size: 14px;
+  }
+  .container {
+    width: 90%;
+  }
+}
+@media (min-width: 2000px) {
+  html {
+    font-size: 1vw;
+  }
+  .container {
+    width: 90%;
+  }
+}

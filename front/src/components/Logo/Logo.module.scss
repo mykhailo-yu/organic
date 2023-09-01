@@ -17,3 +17,15 @@
     }
   }
 }
+@media (max-width: 920px) {
+  .logo {
+    max-width: 10rem;
+    &__image {
+      width: unset;
+      height: 100%;
+    }
+    &__text {
+      font-size: 2rem;
+    }
+  }
+}

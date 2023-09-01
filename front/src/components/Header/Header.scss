@@ -97,3 +97,16 @@
     }
   }
 }
+@media (max-width: 920px) {
+  .header {
+    &__inner {
+      flex-direction: column;
+    }
+    &__nav {
+      display: none;
+    }
+    &__right {
+      display: none;
+    }
+  }
+}
