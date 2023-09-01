@@ -29,7 +29,7 @@
     word-wrap: break-word;
   }
   th:nth-child(1) {
-    width: 5%;
+    width: 7%;
   }
   .orderDetails {
     text-align: center;
@@ -43,4 +43,15 @@
 }
 .toOrderBtn {
   margin: 2rem auto;
+}
+@media (max-width: 919.98px) {
+  .orders {
+    &__inner {
+      width: 100%;
+      overflow-x: scroll;
+    }
+    table {
+      width: 920px;
+    }
+  }
 }

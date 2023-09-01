@@ -20,7 +20,7 @@ function TestimonialsSlider() {
       >
         <SwiperSlide className="testimonial-slider__item">
           <div className="testimonial-slider__item-image">
-            <img src="/img/TestimonialsSlider/User-1.jpg" alt="Sara Taylor" />
+            <img src="img/TestimonialsSlider/User-1.jpg" alt="Sara Taylor" />
           </div>
           <Rate rate={5} size={"1.5rem"} />
           <div className="testimonial-slider__item-text">
@@ -33,7 +33,7 @@ function TestimonialsSlider() {
         </SwiperSlide>
         <SwiperSlide className="testimonial-slider__item">
           <div className="testimonial-slider__item-image">
-            <img src="/img/TestimonialsSlider/User-1.jpg" alt="Sara Taylor" />
+            <img src="img/TestimonialsSlider/User-1.jpg" alt="Sara Taylor" />
           </div>
           <Rate rate={3} size={"1.5rem"} />
           <div className="testimonial-slider__item-text">
@@ -46,7 +46,7 @@ function TestimonialsSlider() {
         </SwiperSlide>
         <SwiperSlide className="testimonial-slider__item">
           <div className="testimonial-slider__item-image">
-            <img src="/img/TestimonialsSlider/User-1.jpg" alt="Sara Taylor" />
+            <img src="img/TestimonialsSlider/User-1.jpg" alt="Sara Taylor" />
           </div>
           <Rate rate={4} size={"1.5rem"} />
           <div className="testimonial-slider__item-text">
@@ -59,7 +59,7 @@ function TestimonialsSlider() {
         </SwiperSlide>
         <SwiperSlide className="testimonial-slider__item">
           <div className="testimonial-slider__item-image">
-            <img src="/img/TestimonialsSlider/User-1.jpg" alt="Sara Taylor" />
+            <img src="img/TestimonialsSlider/User-1.jpg" alt="Sara Taylor" />
           </div>
           <Rate rate={4} size={"1.5rem"} />
           <div className="testimonial-slider__item-text">

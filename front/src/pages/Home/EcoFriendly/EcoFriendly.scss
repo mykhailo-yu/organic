@@ -36,3 +36,15 @@
     }
   }
 }
+@media (max-width: 919.98px) {
+  .eco-friendly {
+    flex-direction: column;
+    &__bg-image {
+      flex-basis: unset;
+      height: 25vw;
+    }
+    &__inner {
+      margin: 0;
+    }
+  }
+}

@@ -6,7 +6,7 @@ function AboutUs() {
       <div className="container">
         <div className="about-us__inner">
           <div className="about-us__image">
-            <img src="/img/AboutUs/about-us__image.png" alt="About us" />
+            <img src="img/AboutUs/about-us__image.png" alt="About us" />
           </div>
           <div className="about-us__info">
             <div className="about-us__info-subtitle">About us</div>
@@ -23,7 +23,7 @@ function AboutUs() {
                 <div className="about-us__list-item-image-wrapper">
                   <div className="about-us__list-item-image">
                     <img
-                      src="/img/AboutUs/about-us__list-item-1.svg"
+                      src="img/AboutUs/about-us__list-item-1.svg"
                       alt="Vegan Food"
                     />
                   </div>
@@ -42,7 +42,7 @@ function AboutUs() {
                 <div className="about-us__list-item-image-wrapper">
                   <div className="about-us__list-item-image">
                     <img
-                      src="/img/AboutUs/about-us__list-item-2.svg"
+                      src="img/AboutUs/about-us__list-item-2.svg"
                       alt="Mailbox"
                     />
                   </div>

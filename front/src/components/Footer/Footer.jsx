@@ -55,7 +55,7 @@ function Footer(props) {
                 className="footer__social-link"
                 rel="noopener noreferrer"
               >
-                <img src="/img/Footer/Instagram.svg" alt="Instagram" />
+                <img src="img/Footer/Instagram.svg" alt="Instagram" />
               </a>
               <a
                 href="https://www.facebook.com/"
@@ -63,7 +63,7 @@ function Footer(props) {
                 className="footer__social-link"
                 rel="noopener noreferrer"
               >
-                <img src="/img/Footer/Facebook.svg" alt="Facebook" />
+                <img src="img/Footer/Facebook.svg" alt="Facebook" />
               </a>
               <a
                 href="https://twitter.com/"
@@ -71,7 +71,7 @@ function Footer(props) {
                 className="footer__social-link"
                 rel="noopener noreferrer"
               >
-                <img src="/img/Footer/Twitter.svg" alt="Twitter" />
+                <img src="img/Footer/Twitter.svg" alt="Twitter" />
               </a>
               <a
                 href="https://www.pinterest.com/"
@@ -79,7 +79,7 @@ function Footer(props) {
                 className="footer__social-link"
                 rel="noopener noreferrer"
               >
-                <img src="/img/Footer/Pinterest.svg" alt="Pinterest" />
+                <img src="img/Footer/Pinterest.svg" alt="Pinterest" />
               </a>
             </div>
           </div>

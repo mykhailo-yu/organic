@@ -38,3 +38,15 @@
     }
   }
 }
+@media (max-width: 919.98px) {
+  .natural-offer {
+    margin: 5rem 0;
+    &__inner {
+      flex-direction: column;
+      gap: 2rem;
+    }
+    &__item {
+      padding: 1rem 2rem;
+    }
+  }
+}

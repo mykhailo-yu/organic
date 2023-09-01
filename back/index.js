@@ -3,7 +3,7 @@ import mysql from "mysql";
 import cors from "cors";
 import bodyParser from "body-parser";
 const app = express();
-
+const port = process.env.PORT || 8000;
 app.use(express.json());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -87,6 +87,6 @@ app.post("/send", (req, res) => {
   res.setHeader("Location", "http://localhost:3000/thankYou");
 });
 
-app.listen(8000, () => {
-  console.log("Server is ok!");
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}!`);
 });

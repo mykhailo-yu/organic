@@ -107,7 +107,7 @@ function ProductModal() {
                   {isProduct.productShortDescr}
                 </div>
                 <div className={styles.productModal__addToCart}>
-                  <label htmlFor="quantity">Quatity: </label>
+                  <label htmlFor="quantity">Quantity: </label>
                   <input
                     name="quantity"
                     type="number"

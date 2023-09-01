@@ -96,17 +96,123 @@
       }
     }
   }
+  &__menu-toggle {
+    display: none;
+  }
 }
-@media (max-width: 920px) {
+.mob-nav__wrapper {
+  display: none;
+}
+@media (max-width: 919.98px) {
   .header {
     &__inner {
-      flex-direction: column;
+      justify-content: flex-start;
     }
     &__nav {
       display: none;
     }
     &__right {
       display: none;
+    }
+    &__menu-toggle {
+      margin-right: calc(50% - 8rem);
+      display: block;
+      height: 100%;
+      position: relative;
+      z-index: 1;
+      -webkit-user-select: none;
+      user-select: none;
+      &:hover {
+        cursor: pointer;
+      }
+      span {
+        display: block;
+        width: 29px;
+        height: 3px;
+        margin-bottom: 5px;
+        position: relative;
+        background: aux.$titleAndBtnColor;
+        border-radius: 3px;
+        z-index: 1;
+      }
+    }
+  }
+
+  .mob-nav {
+    position: relative;
+    height: 100%;
+    width: 0;
+    background-color: aux.$bgColor-2;
+    transition: width 0.2s ease-in-out;
+    overflow-x: auto;
+    &__wrapper {
+      display: block;
+      width: 100%;
+      height: 100%;
+      display: none;
+      opacity: 0;
+      background: #eeeeee82;
+      position: fixed;
+      z-index: 6;
+      transition: opacity 0.2s ease-in-out;
+    }
+    &__inner {
+      position: relative;
+      top: 25vh;
+      width: 100%;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 2vh;
+    }
+    &__links {
+      display: flex;
+      gap: 1.8vh;
+      flex-direction: column;
+    }
+    &__link {
+      position: relative;
+      color: aux.$titleAndBtnColor;
+      font-family: "Roboto", sans-serif;
+      font-size: 1.25rem;
+      font-weight: 700;
+      transition: opacity 0.2s ease-in-out;
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+    &__close-btn {
+      position: absolute;
+      top: 3%;
+      right: 10%;
+      font-size: 40px;
+    }
+    .header__search-button {
+      width: 2.8rem;
+      height: 2.3rem;
+    }
+    .header__search {
+      margin: 0 auto;
+      width: 85%;
+    }
+    .header__cart {
+      width: 70%;
+      margin: 0 auto;
+    }
+    .header__cart-icon {
+      width: 2.8rem;
+      height: 2.8rem;
+    }
+  }
+}
+@media (min-width: 920px) and (max-width: 1200px) {
+  .header {
+    &__cart-t {
+      display: none;
+    }
+    &__search-input {
+      width: 50%;
     }
   }
 }

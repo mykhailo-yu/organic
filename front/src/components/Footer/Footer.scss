@@ -86,3 +86,23 @@
     }
   }
 }
+@media (max-width: 919.98px) {
+  .footer {
+    &__inner {
+      flex-direction: column;
+    }
+    &__contact-us {
+      text-align: center;
+      padding: 0;
+      margin-bottom: 2rem;
+    }
+    &__main {
+      margin-bottom: 1.5rem;
+    }
+    &__utility-pages {
+      text-align: center;
+      padding: 0;
+      margin-bottom: 2rem;
+    }
+  }
+}

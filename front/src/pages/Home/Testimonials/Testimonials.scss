@@ -46,3 +46,12 @@
     }
   }
 }
+@media (max-width: 919.98px) {
+  .testimonials {
+    padding: 5rem 0;
+    background: none;
+    &-stats {
+      gap: 1rem;
+    }
+  }
+}

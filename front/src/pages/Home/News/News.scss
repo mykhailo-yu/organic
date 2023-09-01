@@ -16,3 +16,13 @@
     @include aux.h2Text;
   }
 }
+@media (max-width: 919.98px) {
+  .news {
+    margin: 5rem 0;
+    &__header {
+      align-items: center;
+      flex-direction: column;
+      gap: 2rem;
+    }
+  }
+}

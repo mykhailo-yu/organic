@@ -24,34 +24,38 @@ function OrderDetails({ id, onClick }) {
           <div className="container">
             <div className={styles.details__title}>Orders</div>
             <div className={styles.details__inner}>
-              <table>
-                <thead>
-                  <tr>
-                    <th className={styles.details__titleRow}>Order Id</th>
-                    <th className={styles.details__titleRow}>Product Id</th>
-                    <th className={styles.details__titleRow}>Product Name</th>
-                    <th className={styles.details__titleRow}>
-                      Product Quantity
-                    </th>
-                    <th className={styles.details__titleRow}>Product Price</th>
-                    <th className={styles.details__titleRow}>
-                      Product Discount Price
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {details.map((detail) => (
-                    <tr key={detail.orderDetailsId}>
-                      <td>{detail.orderId}</td>
-                      <td>{detail.productId}</td>
-                      <td>{detail.productName}</td>
-                      <td>{detail.productQuantity}</td>
-                      <td>$ {detail.productPrice}</td>
-                      <td>$ {detail.productPriceNew}</td>
+              <div className={styles.table__wrapper}>
+                <table>
+                  <thead>
+                    <tr>
+                      <th className={styles.details__titleRow}>Order Id</th>
+                      <th className={styles.details__titleRow}>Product Id</th>
+                      <th className={styles.details__titleRow}>Product Name</th>
+                      <th className={styles.details__titleRow}>
+                        Product Quantity
+                      </th>
+                      <th className={styles.details__titleRow}>
+                        Product Price
+                      </th>
+                      <th className={styles.details__titleRow}>
+                        Product Discount Price
+                      </th>
                     </tr>
-                  ))}
-                </tbody>
-              </table>
+                  </thead>
+                  <tbody>
+                    {details.map((detail) => (
+                      <tr key={detail.orderDetailsId}>
+                        <td>{detail.orderId}</td>
+                        <td>{detail.productId}</td>
+                        <td>{detail.productName}</td>
+                        <td>{detail.productQuantity}</td>
+                        <td>$ {detail.productPrice}</td>
+                        <td>$ {detail.productPriceNew}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
               <Button
                 text="To orders"
                 onClick={onClick}

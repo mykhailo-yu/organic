@@ -4,7 +4,7 @@ function EcoFriendly() {
     <section className="eco-friendly">
       <div className="eco-friendly__bg-image">
         <img
-          src="/img/EcoFriendly/eco-friendly__bg-image.jpg"
+          src="img/EcoFriendly/eco-friendly__bg-image.jpg"
           alt="eco-friendly"
         />
       </div>

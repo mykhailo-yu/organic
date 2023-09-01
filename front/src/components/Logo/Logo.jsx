@@ -5,7 +5,7 @@ function Logo() {
   return (
     <Link to="/" className={styles.logo}>
       <div className={styles.logo__image}>
-        <img src="/img/Logo/logo.svg" alt="Logo" />
+        <img src="img/Logo/logo.svg" alt="Logo" />
       </div>
       <div className={styles.logo__text}>Organick</div>
     </Link>

@@ -33,3 +33,16 @@
     }
   }
 }
+@media (max-width: 919.98px) {
+  .subscribe {
+    flex-direction: column;
+    padding: 2.5rem 4.4rem;
+    gap: 2rem;
+    &__title {
+      font-size: 2rem;
+    }
+    &__form {
+      flex-direction: column;
+    }
+  }
+}
